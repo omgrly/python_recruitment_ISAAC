@@ -16,6 +16,9 @@ class TemperatureLogger {
 }
 ```
 
+> **Note**
+> The callback method as a `Float32` parameter. To get the `float` value, you'll need to unpack it using `temperature.data`.
+
 ## The simple way
 
 The quickest way to solve this task is just editing the `logger.py` file, however you can't **directly** test the code you write since you'll be missing the dependencies to run it. To make sure your code works you'll have to find another way to **test the class** you create. Unless you trust your coding skills enough! :)
