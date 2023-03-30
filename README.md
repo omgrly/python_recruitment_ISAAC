@@ -29,7 +29,7 @@ If you're still reading and up for a challenge, we include an extremely condense
 
 ## The ROS way 
 
-While **you don't need to use ROS at all** to implement ant test the code you're asked to write, we still provide the basic steps to obtain a working ROS2 Humble environment in a **Ubuntu 22.04** environment. 
+While **you don't need to use ROS at all** to implement and test the code you're asked to write, we still provide the basic steps to obtain a working ROS2 Humble environment in a **Ubuntu 22.04** environment. 
 
 If you decide to try it, we suggest using WSL (if using Windows) or any other containerization/virtualization environment, to easily rollback any changes. 
 
