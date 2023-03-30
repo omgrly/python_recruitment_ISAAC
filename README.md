@@ -6,7 +6,7 @@ To keep track of possible damages to the robot's chassis, we want to log every t
 
 For this purpose a ROS2 package called `temperature_log` has been created, and is included in this repository. In particular, the main code for this package is inside `temperature_log/temperature_log/logger.py`. 
 
-In that file a `TemperatureLogger` class should be implemented, with the following structure. Feel free to add methods and attributes if you need.
+In that file a `TemperatureLogger` class should be implemented, with the following structure. Feel free to add methods and attributes if you need. You can also import any module from the Python Standard Library.
 
 ```mermaid
 classDiagram
