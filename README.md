@@ -74,6 +74,16 @@ git clone https://github.com/Team-Isaac-Polito/python_recruitment src/python_rec
 colcon build
 
 # setup the environment for this project
-source /opt/ros/humble/setup.bash
+. install/local_setup.bash
 ```
+
+### ROS launch
+
+After all the previous steps, you can finally start the code. To do so, a ROS launch file has been provided. Make sure the shell you're using is setup correctly using the `.bash` indicated by the previous two code blocks, then use the following command.
+
+```bash
+ros2 launch temperature_log temperature_log_launch.py
+```
+
+This will not only start the code in `logger.py`, but also the `publisher.py` file (node in ROS terms). This node will send a random value to the logger node, allowing you to see if the code you wrote is working!
 
