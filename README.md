@@ -17,7 +17,7 @@ class TemperatureLogger {
 ```
 
 > **Note**
-> The callback method as a `Float32` parameter. To get the `float` value, you'll need to unpack it using `temperature.data`.
+> The callback method receives the temperature as a `Float32` parameter. To get the `float` value, you'll need to unpack it using `temperature.data`.
 
 ## The simple way
 
