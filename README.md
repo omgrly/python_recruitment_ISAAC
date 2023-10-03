@@ -29,13 +29,13 @@ If you're still reading and up for a challenge, we include an extremely condense
 
 ## The ROS way 
 
-While **you don't need to use ROS at all** to implement and test the code you're asked to write, we still provide the basic steps to obtain a working ROS2 Humble environment in a **Ubuntu 22.04** environment. 
+While **you don't need to use ROS at all** to implement and test the code you're asked to write, we still provide the basic steps to obtain a working ROS2 Iron environment in a **Ubuntu 22.04** environment. 
 
 If you decide to try it, we suggest using WSL (if using Windows) or any other containerization/virtualization environment, to easily rollback any changes. 
 
 ### ROS install
 
-The following is a summary of the instructions found in ROS2 documentation [here](https://docs.ros.org/en/humble/Installation/Ubuntu-Install-Debians.html).
+The following is a summary of the instructions found in ROS2 documentation [here](https://docs.ros.org/en/iron/Installation/Ubuntu-Install-Debians.html).
 
 ```bash
 # enable universe repository
@@ -53,17 +53,17 @@ echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/ros-a
 
 # install ROS2 and necessary packages
 sudo apt update
-sudo apt install ros-humble-ros-base ros-dev-tools python3-colcon-common-extensions -y
+sudo apt install ros-iron-ros-base ros-dev-tools python3-colcon-common-extensions -y
 
 # setup environment for ROS2 development
-source /opt/ros/humble/setup.bash
+source /opt/ros/iron/setup.bash
 ```
 
 The last line should be executed every time you open a new bash shell. Alternatively, you can add it at the end of the `.bashrc` file in your user home.
 
 ### ROS workspace setup
 
-Following are based upon [this tutorial by ROS](https://docs.ros.org/en/humble/Tutorials/Beginner-Client-Libraries/Colcon-Tutorial.html).
+Following are based upon [this tutorial by ROS](https://docs.ros.org/en/iron/Tutorials/Beginner-Client-Libraries/Colcon-Tutorial.html).
 
 ```bash
 # create folder structure
